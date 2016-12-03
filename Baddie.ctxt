@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ size\ color\ map\ man
+comment0.target=Baddie(int,\ int,\ int,\ java.awt.Color,\ Map,\ Man)
+comment0.text=\ Extend\ the\ man's\ constructor\ but\ add\ the\ man\r\n\ @param\ xPos\r\n\ @param\ yPos\r\n\ @param\ size\r\n\ @param\ color\r\n\ @param\ map\r\n\ @param\ man\r\n
+comment1.params=man
+comment1.target=void\ setMan(Man)
+comment2.params=g
+comment2.target=void\ draw(java.awt.Graphics)
+comment3.params=
+comment3.target=int\ checkDirX()
+comment3.text=\r\n\ find\ out\ which\ direction\ to\ move\r\n\ to\ eat\ the\ man\r\n\ @return\ -1,\ 0,\ 1\ for\ dirX\r\n
+comment4.params=
+comment4.target=int\ checkDirY()
+comment4.text=\r\n\ find\ out\ which\ direction\ to\ move\r\n\ to\ eat\ the\ man\r\n\ @return\ -1,\ 0,\ 1\ for\ dirY\r\n
+numComments=5

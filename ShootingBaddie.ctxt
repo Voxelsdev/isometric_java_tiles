@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=g
+comment0.target=void\ draw(java.awt.Graphics)
+comment1.params=
+comment1.target=int\ checkDirX()
+comment2.params=
+comment2.target=int\ checkDirY()
+comment3.params=tileSize
+comment3.target=boolean\ isShootable(int)
+numComments=4

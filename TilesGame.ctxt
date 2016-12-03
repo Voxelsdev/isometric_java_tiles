@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ init()
+comment0.text=\r\n\ Initialize\ the\ application\r\n
+comment1.params=
+comment1.target=void\ death()
+comment2.params=gfx
+comment2.target=void\ paint(java.awt.Graphics)
+comment2.text=\r\n\ Paint\ the\ game\ world\r\n
+comment3.params=gfx
+comment3.target=void\ update(java.awt.Graphics)
+comment4.params=
+comment4.target=void\ run()
+comment4.text=\r\n\ Run\ the\ application\r\n
+comment5.params=
+comment5.target=void\ moveLogic()
+comment5.text=\r\n\ Our\ game\ logic\ method\ -\ for\ this\ example\ purpose\ this\ is\ very\ \r\n\ simple.\ Check\ the\ keyboard,\ and\ attempt\ to\ move\ the\ player\r\n\ \r\n
+comment6.params=e
+comment6.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment6.text=\r\n\tpublic\ void\ newMap(){\r\n\t\t//where\ is\ the\ man?\r\n\t\tfloat\ x\ \=\ man.getXPos();\r\n\t\tfloat\ y\ \=\ man.getYPos();\r\n\t\t//find\ out\ which\ map\ to\ load;\t\t\r\n\t\tif(x<this.map.getTileSize()){\r\n\t\t\tlevelX--;\r\n\t\t\tx\ \=\ \ dim.width-this.map.getTileSize()-size-spd;\r\n\t\t}else\ if(x>dim.width-this.map.getTileSize()){\r\n\t\t\tlevelX++;\r\n\t\t\tx\ \=\ this.map.getTileSize()+spd;\r\n\t\t}if(y<this.map.getTileSize()){\r\n\t\t\tlevelY--;\r\n\t\t\ty\ \=\ \ dim.height-this.map.getTileSize()-size-spd;\r\n\t\t}else\ if(y>dim.height-this.map.getTileSize()){\r\n\t\t\tlevelY++;\r\n\t\t\ty\ \=\ this.map.getTileSize()+spd;\r\n\t\t}\r\n\t\t//move\ the\ man\ to\ the\ appropriate\ doorway\r\n\t\tman.setXPos((int)x);\r\n\t\tman.setYPos((int)y);\r\n\t\t//load\ the\ new\ map\r\n\t\tthis.map.setMap(maps[levelY][levelX]);\r\n\t\t//move\ the\ baddie\r\n\t\tbaddie.setXPos(baddieX[levelY][levelX]*tileSize);\r\n\t\tbaddie.setYPos(baddieY[levelY][levelX]*tileSize);\r\n\t}\r\n
+comment7.params=e
+comment7.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment7.text=\r\n\ @see\ java.awt.event.KeyListener\#keyReleased(java.awt.event.KeyEvent)\r\n
+comment8.params=arg0
+comment8.target=void\ keyTyped(java.awt.event.KeyEvent)
+numComments=9
